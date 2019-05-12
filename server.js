@@ -2,9 +2,8 @@ var express = require('express');
 var path = require('path');
 
 
-
-// var apiRoutes = require('./app/routing/api-routes.js');
-// var htmlRoutes = require('./app/routing/html-routes.js');
+var apiRoutes = require('./app/routing/apiRoutes.js');
+var htmlRoutes = require('./app/routing/htmlRoutes.js');
 
 // Initialize the app and create a port
 var app = express();
@@ -16,8 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 
-// require('./routes/apiRoutes')(app);
-// require('./routes/htmlRoutes')(app);
+apiRoutes(app); 
+htmlRoutes(app);
 
 // Start the server on the port
 app.listen(PORT, function() {

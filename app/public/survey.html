@@ -1,0 +1,288 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+  
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  
+  </head>
+  
+  <body>
+
+    <div class="container">
+        <div class="col-md-6 col-md-offset-2 ">
+      <h2>Survey Questions About You</h2>
+      <hr>
+      </div>
+  
+
+   <div class="col-md-6 col-md-offset-2 ">
+      <form>
+        <div class="form-group">
+          <label for="nameInput">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name (required)" required="">
+        
+        </div>
+        <label for="photoInput">Image URL Link</label>
+        <input type="text" class="form-control" id="photo" placeholder="image.jpeg (required)" required="">
+      
+      </div>
+    </div>
+      </form>
+
+      <div class="col-md-4 col-md-offset-3">
+      <h3><strong>Question 1</strong></h3>
+      <h4>Breakfast is the most important meal of the day.</h4>
+      <select class="chosen-select" data-placeholder="" id="q1">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+      <h3><strong>Question 2</strong></h3>
+      <h4>Swimming in the ocean is better than swimming in a public pool.</h4>
+      <select class="chosen-select" data-placeholder="" id="q2">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+  
+      <h3><strong>Question 3</strong></h3>
+      <h4>Alcohol should be illegal.</h4>
+      <select class="chosen-select" data-placeholder="" id="q3">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+  
+      <h3><strong>Question 4</strong></h3>
+      <h4>Children should provide room and board for their aging parents.</h4>
+      <select class="chosen-select" data-placeholder="" id="q4">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+      <h3><strong>Question 5</strong></h3>
+      <h4>Studying grammar is more important than practicing conversation skills.</h4>
+      <select class="chosen-select" data-placeholder="" id="q5">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+  
+      <h3><strong>Question 6</strong></h3>
+      <h4>Television is the leading cause of violence in today's society.</h4>
+      <select class="chosen-select" data-placeholder="" id="q6">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+  
+      <h3><strong>Question 7</strong></h3>
+      <h4>Dogs make better companions than cats.</h4>
+      <select class="chosen-select" data-placeholder="" id="q7">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+      <h3><strong>Question 8</strong></h3>
+      <h4>Females are better students than males.</h4>
+      <select class="chosen-select" data-placeholder="" id="q8">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+      <h3><strong>Question 9</strong></h3>
+      <h4>Everyone should plan their own funeral.</h4>
+      <select class="chosen-select" data-placeholder="" id="q9">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+  
+      <h3><strong>Question 10</strong></h3>
+      <h4>Summer is the best season of the year.</h4>
+      <select class="chosen-select" data-placeholder="" id="q10">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+     
+<br>
+<br>
+
+<div class="col-md-4 col-md-offset-3">
+
+  <br>
+  <br>
+      
+  <!-- SUBMIT BUTTON -->
+      <button type="submit" class="btn btn-primary btn-lg" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+       Submit</button>
+
+       <hr>
+       <footer class="footer">
+         <div class="container">
+           <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+         </div>
+       </footer>
+  
+</div>
+
+  
+  
+  
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" alt="Image Not Found">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <script type="text/javascript">
+      // Chosen CSS
+      var config = {
+        ".chosen-select": {},
+        ".chosen-select-deselect": {
+          allow_single_deselect: true
+        },
+        ".chosen-select-no-single": {
+          disable_search_threshold: 10
+        },
+        ".chosen-select-no-results": {
+          no_results_text: "Oops, nothing found!"
+        },
+        ".chosen-select-width": {
+          width: "95%"
+        }
+      };
+  
+      for (var selector in config) {
+        $(selector).chosen(config[selector]);
+      }
+  
+      // Capture the form inputs
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+  
+        // Form validation
+        function validateForm() {
+          var isValid = true;
+          $(".form-control").each(function() {
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
+  
+          $(".chosen-select").each(function() {
+  
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
+          return isValid;
+        }
+  
+        // If all required fields are filled
+        if (validateForm()) {
+          // Create an object for the user"s data
+          var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+              $("#q1").val(),
+              $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
+            ]
+          };
+  
+          // AJAX post the data to the friends API.
+          $.post("/api/friends", userData, function(data) {
+  
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#match-name").text(data.name);
+            $("#match-img").attr("src", data.photo);
+  
+            // Show the modal with the best match
+            $("#results-modal").modal("toggle");
+  
+          });
+        } else {
+          alert("Please fill out all fields before submitting!");
+        }
+      });
+    </script>
+  
+  
+  
+  
+  </body></html>
